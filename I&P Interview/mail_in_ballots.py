@@ -60,6 +60,24 @@ try:
 
     print('~ Here is the data for this request:')
     print(age_and_party)
+
+    # Below is the age_and_party df from my last run:
+    #      age_range party  requests
+    # 42       18-25     D     52642
+    # 144      18-25     R     17715
+    # 229      25-35     D    218382
+    # 331      25-35     R     49408
+    # 416      35-45     D    232183
+    # 518      35-45     R     49696
+    # 603      45-55     D    194399
+    # 705      45-55     R     54190
+    # 790      55-65     D    259476
+    # 892      55-65     R    100056
+    # 977      65-75     D    374425
+    # 1079     65-75     R    140566
+    # 1164       75+     D    376146
+    # 1266       75+     R    199601
+
     print('~ Across the board, Democrats requested more ballots than Republicans, and older age groups requested more than younger groups.')
 
     # Question 2
